@@ -13,10 +13,9 @@ Density of edges relative to the max number of edges that can be possibly occure
 Selfloops: **5**  
 Average clustering coefficient (vertices): **0.2387**  
              
-### Vertices degree Distribution and the Thematic Graph with gephi software  
-#### Degree Distribution   
+### Degree Distribution   
 ![alt text](https://github.com/nikifori/Thematic_graph_project/blob/main/Printscreens/Screenshot_2.png "Degree Distribution")  
   
-#### Final Thematic Graph  
+### Final Thematic Graph  
 ![alt text](https://github.com/nikifori/Thematic_graph_project/blob/main/Printscreens/Screenshot_1.png "Thematic Graph")  
 
