@@ -10,7 +10,7 @@ import random
 # Theme
 theme = "Tennis"
 
-# metritis gia na metraei poses fores etrexe h sinartisi links_nodes_edges
+
 def_counter_run = 0
 
 # english language
@@ -33,7 +33,7 @@ def links_nodes_edges(key_word):
     global def_counter_run
     node_links = []
     node_links.clear()
-    n = 350                         # No tixaiwn links gia elegxw
+    n = 350                         
 
     
     try:
