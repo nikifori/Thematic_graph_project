@@ -38,14 +38,14 @@ def links_nodes_edges(key_word):
     
     try:
         temp_list = wikipedia.WikipediaPage(key_word).links
-        for i in random.sample(temp_list, n if len(temp_list) > n else len(temp_list)):    # Elegxw an exw tosa links na epilexw tixaia, an exw katw apo 350 links ta epilegw ola.
+        for i in random.sample(temp_list, n if len(temp_list) > n else len(temp_list)):    
             if wikipedia.WikipediaPage(i).content.lower().count(theme.lower()) > 25 :
-                node_links.append(i)                                                        # Dimiourgia grafou
+                node_links.append(i)                                                        
                 themnet.add_node(i)
                 themnet.add_edge(key_word, i)
                 def_counter_run += 1
                 print(def_counter_run)
-    except:                                                             # se periptwsh error , epistrefoyme mia selida poy den exei sxesi me to tennis wste ston elegxw gia to an periexei to content mesa th lexi tennis na figei
+    except:                                                             
         def_counter_run += 1
         print(def_counter_run)
         return ["Newbie"]
